@@ -32,7 +32,7 @@ class StateProviderScreen extends ConsumerWidget {
               ref.read(darkModeProvider.notifier).toggleDarkMode();
             },
           ),
-          Text(userName, style: TextStyle(fontSize: 25)),
+          Text(userName, style: const TextStyle(fontSize: 25)),
           TextButton.icon(
             icon: const Icon(
               Icons.add,
